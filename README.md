@@ -78,11 +78,11 @@ It demonstrates **data cleaning, preprocessing, visualization, and business reco
 </p>
 
 <p align="center">
-  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/Sales%20by%20outlet%20size.PNG" width="60%">
+  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/Sales%20by%20outlet%20size.PNG" width="70%">
 </p>
 
 <p align="center">
-  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/Sales%20by%20outlet%20location%20tier%20and%20fat%20content.PNG" width="60%">
+  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/Sales%20by%20outlet%20location%20tier%20and%20fat%20content.PNG" width="70%">
 </p>
 
 *(More charts available in the notebook.)*
