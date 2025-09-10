@@ -1,114 +1,120 @@
-# 🛒 Blinkit Retail Sales Analysis (EDA with Python)
+<p align="center">
+  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/ANALYSIS.png" width="80%">
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg) 
-![Pandas](https://img.shields.io/badge/Pandas-Data--Analysis-orange.svg) 
-![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal.svg) 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Charts-yellow.svg) 
+<h1 align="center"> 🛒 Blinkit Retail Sales Analysis (EDA with Python) </h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Badge"/>
+  <img src="https://img.shields.io/badge/Pandas-Data--Analysis-orange.svg" alt="Pandas Badge"/>
+  <img src="https://img.shields.io/badge/Seaborn-Visualization-teal.svg" alt="Seaborn Badge"/>
+  <img src="https://img.shields.io/badge/Matplotlib-Charts-yellow.svg" alt="Matplotlib Badge"/>
+</p>
 
 ---
 
 ## 📌 Project Overview
-This project analyzes **Blinkit grocery sales data** to extract **actionable business insights**.  
-The goal is to understand product performance, outlet trends, and customer preferences through **data cleaning, EDA, KPI calculation, and visualization**.  
 
-The notebook demonstrates **end-to-end data analysis workflow** and highlights skills valuable for **data analyst roles**.
+This project performs an **Exploratory Data Analysis (EDA)** on Blinkit grocery sales data using Python.  
+The goal is to extract **actionable business insights** about product trends, category performance, outlet sales, and customer preferences.  
+
+It demonstrates **data cleaning, preprocessing, visualization, and business recommendations**, making it a strong **portfolio-ready analytics project**.  
 
 ---
 
-## 📂 Dataset
+## 📊 Dataset
+
 - **File:** `blinkit_data.csv`  
-- **Contents:** Sales transactions including product details (type, fat content, weight), outlet information (location, size, year), ratings, and sales performance.  
-- **Note:** Dataset used for educational purposes only.  
+- **Contents:** Sales transactions with details on items, categories, outlet info, pricing, and ratings.  
 
 ---
 
 ## 🎯 Project Objectives
-- Clean and preprocess raw retail sales data  
-- Explore sales patterns by product, outlet, and customer features  
-- Calculate **business KPIs** (total sales, average sales, items sold, ratings)  
-- Visualize insights using Python plotting libraries  
-- Provide **business recommendations** to improve strategy  
+
+- Clean and preprocess raw grocery sales data  
+- Perform exploratory data analysis (EDA)  
+- Visualize insights using Python libraries  
+- Identify sales trends, fast-moving products, and outlet performance  
+- Provide business recommendations for growth  
 
 ---
 
-## ⚙️ Tools & Libraries
+## 🛠️ Tools & Libraries
+
 - **Python (Jupyter Notebook)**  
-- **pandas, numpy** → Data cleaning & manipulation  
-- **matplotlib, seaborn** → Statistical visualization  
-- **plotly express** → Interactive charts  
+- **pandas**, **numpy** → Data manipulation  
+- **matplotlib**, **seaborn** → Visualizations  
+- **plotly.express** → Interactive charts  
 
 ---
 
-## 📊 Key KPIs
-- **Total Sales:** $1.2M+  
-- **Average Sales per Item:** $141  
-- **Number of Items Sold:** 8,500+  
-- **Average Customer Rating:** 3.8 / 5  
+## 🚀 Workflow
+
+1. **Data Loading & Inspection**  
+   Load dataset, preview structure, and check missing values  
+
+2. **Data Cleaning**  
+   - Fill missing values (median imputation)  
+   - Fix inconsistent categories  
+   - Handle zeros in visibility column  
+
+3. **Exploratory Data Analysis**  
+   - Distribution of sales, ratings, item weight  
+   - Category-wise and outlet-wise sales patterns  
+
+4. **Visualizations**  
+   - Donut charts for fat content & outlet size  
+   - Bar plots for item type & outlet location sales  
+   - Time trend analysis for outlet establishment year  
+
+5. **Key Insights & Recommendations**  
 
 ---
 
-## 🔎 Workflow Summary
-1. **Data Loading & Inspection**
-   - Load CSV with pandas  
-   - Preview structure, columns, and stats  
+## 📈 Sample Visualizations
 
-2. **Data Cleaning**
-   - Fix inconsistent labels (e.g., “LF” → “Low Fat”)  
-   - Handle missing values (`Item Weight`, `Item Visibility`)  
-   - Replace zeros with median values  
+<p align="center">
+  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/sales%20by%20item%20type.PNG" width="70%">
+</p>
 
-3. **Exploratory Data Analysis**
-   - **Univariate analysis** (distributions, boxplots, counts)  
-   - **Multivariate analysis** (grouped sales, outlet comparisons)  
-   - Trend analysis by **year, region, and outlet size**  
+<p align="center">
+  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/Sales%20by%20outlet%20size.PNG" width="60%">
+</p>
 
-4. **Visualization**
-   - Donut charts (sales share by fat content, outlet size)  
-   - Bar plots (item type sales, outlet location performance)  
-   - Line plots (sales by establishment year)  
-   - Stacked bars (fat content by outlet tier)  
+<p align="center">
+  <img src="https://github.com/Vipin-Andel/Blinkit_EDA_using_Python/blob/main/Sales%20by%20outlet%20location%20tier%20and%20fat%20content.PNG" width="60%">
+</p>
 
-5. **Insights & Recommendations**
-   - Identify **fast vs slow-moving products**  
-   - Compare **outlet tiers and regions**  
-   - Highlight **benchmark outlets** for best practices  
+*(More charts available in the notebook.)*
 
 ---
 
-## 📊 Key Insights
-- **Top Item Categories:** Fruits & Vegetables, Snack Foods, Household items  
-- **Top Outlets:** OUT035, OUT046, OUT013 → contribute the most sales  
-- **Sales by Region:** Tier 3 outlets outperform Tier 1 & Tier 2  
-- **Best Establishment Year:** 1998 outlets have the strongest long-term performance  
-- **Fast Movers:** Fruits, Snacks, Household  
-- **Slow Movers:** Starchy Foods, Breakfast items, Seafood  
+## 🔑 Key Insights
 
----
-
-## 🚀 Business Recommendations
-- Allocate more inventory to **fast-moving categories** to avoid stockouts  
-- Launch **promotions** for slow-moving categories to boost demand  
-- Replicate successful strategies from **Tier 3 outlets** to other regions  
-- Study **high-performing outlets** as benchmarks for expansion  
+- **Top-selling categories:** Fruits & Vegetables, Snack Foods, Household items  
+- **Tier-3 outlets** generated the highest sales → Strong customer engagement  
+- **Outlets established in 1998** recorded the best long-term performance  
+- **Fast-movers:** Fruits, Snacks, Household | **Slow-movers:** Starchy Foods, Breakfast, Seafood  
+- Recommendation: Stock more fast-movers, use promotions for slow-movers  
 
 ---
 
 ## 📂 Repository Structure
-| File                                    | Description                                   |
+
+| File/Folder                              | Description                                   |
 |------------------------------------------|-----------------------------------------------|
-| `Blinkit Analysis using Python.ipynb`    | Main analysis notebook                        |
-| `blinkit_data.csv`                       | Dataset (if shareable)                        |
-| `Blinkit_client_req.pptx`                | Business/client presentation slides           |
+| `Blinkit Analysis using Python.ipynb`    | Main EDA notebook                             |
+| `blinkit_data.csv`                       | Raw dataset                                   |
+| `images/`                                | Saved plots & visualizations                  |
 | `README.md`                              | Project documentation (this file)             |
 
 ---
 
-## 🖼️ Sample Visuals
-*(Add PNGs/screenshots of your charts inside an `images/` folder and link them here)*
+## ▶️ How to Run This Project
 
-```markdown
-![Sales by Item Type](images/sales_by_item_type.png)
-![Sales by Outlet Size](images/sales_by_outlet_size.png)
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Vipin-Andel/Blinkit_EDA_using_Python.git
+   cd Blinkit_EDA_using_Python
 
-
-
+**Built with ❤️ and lots of ☕ | Last Updated: September 2025**
