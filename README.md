@@ -117,4 +117,10 @@ It demonstrates **data cleaning, preprocessing, visualization, and business reco
    git clone https://github.com/Vipin-Andel/Blinkit_EDA_using_Python.git
    cd Blinkit_EDA_using_Python
 
+## 📧 Contact & Support
+
+**Developer**: Vipin Andel  
+**GitHub**: [@Vipin-Andel](https://github.com/Vipin-Andel)  
+**Project Repository**[Blinkit EDA using Python(https://github.com/Vipin-Andel/Blinkit_EDA_using_Python)
+
 **Built with ❤️ and lots of ☕ | Last Updated: September 2025**
